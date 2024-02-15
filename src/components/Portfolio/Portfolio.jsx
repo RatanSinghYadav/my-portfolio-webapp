@@ -15,7 +15,11 @@ import Todo_Redux from "../../img/redux_todo.png";
 import Page from "../../img/pagination.png";
 import Chart from "../../img/chart.png";
 import Backlink from "../../img/backlink.png";
+import Task from "../../img/task.png";
+import Ecom2 from "../../img/ecom2.png";
 import { themeContext } from "../../Context";
+
+
 const Portfolio = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -74,11 +78,7 @@ const Portfolio = () => {
             <img src={Amazon} alt="" />
           </a>
         </SwiperSlide>
-        <SwiperSlide>
-          <a href="https://mern-todo-frontend.onrender.com/">
-            <img src={Todo_MERN} alt="" />
-          </a>
-        </SwiperSlide>
+
       </Swiper>
       <Swiper
         spaceBetween={30}
@@ -87,13 +87,37 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
-          <a href="https://silly-monstera-5ab27c.netlify.app">
-            <img src={Backlink} alt="" />
+          <a href="https://task-management-webapp-kr7n.onrender.com">
+            <img src={Task} alt="" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
+          <a href="https://mern-todo-frontend.onrender.com/">
+            <img src={Todo_MERN} alt="" />
+          </a>
+        </SwiperSlide>
+
+        <SwiperSlide>
           <a href="https://cozy-puppy-d6ece8.netlify.app/">
             <img src={Cart} alt="" />
+          </a>
+        </SwiperSlide>
+        
+      </Swiper>
+      <Swiper
+        spaceBetween={30}
+        slidesPerView={3}
+        grabCursor={true}
+        className="portfolio-slider"
+      >
+        <SwiperSlide>
+          <a href="https://tubular-mooncake-52acdf.netlify.app/">
+            <img src={Page} alt="" />
+          </a>
+        </SwiperSlide>
+        <SwiperSlide>
+          <a href="https://comforting-salmiakki-53e8c5.netlify.app/">
+            <img src={Ecom2} alt="" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
@@ -109,8 +133,8 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
-          <a href="https://tubular-mooncake-52acdf.netlify.app/">
-            <img src={Page} alt="" />
+          <a href="https://silly-monstera-5ab27c.netlify.app">
+            <img src={Backlink} alt="" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
